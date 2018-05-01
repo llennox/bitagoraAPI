@@ -3,9 +3,8 @@ this is the api for bitagora.co
 
 # so this is all just the api requests that the client side sends, I'll document it better in the future 
 
-
-#BASE_URL = 'https://bitagora.co/'
-# create accoutn 
+# BASE_URL = 'https://bitagora.co/'
+# create account 
 
 ```javascript 
 export const sendCreateAccount = (theemail, thepassword) => {
@@ -27,7 +26,7 @@ export const sendCreateAccount = (theemail, thepassword) => {
 }
 ```
 
-#log in and recieve an authtoken
+# log in and recieve an authtoken
 
 ```javascript 
 export const loginUser = (theemail, thepassword) => {
@@ -48,7 +47,7 @@ export const loginUser = (theemail, thepassword) => {
 }
 ```
 
-#this creates and order and address 
+# this creates and order and address 
 
 ```javascript 
 export const sendOrderNewAddress = (
@@ -97,7 +96,7 @@ export const sendOrderNewAddress = (
 
 ```
 
-#this gets all orders from oldest to newest status is either paid, unpaid, or completed
+# this gets all orders from oldest to newest status is either paid, unpaid, or completed
 
 ```javascript 
 export const getOrders = (status) => {
